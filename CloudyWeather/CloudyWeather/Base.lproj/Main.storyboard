@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CloudyWeather" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="cloud_small" translatesAutoresizingMaskIntoConstraints="NO" id="EXH-2Z-hYF">
+                                <rect key="frame" x="150" y="20" width="300" height="240"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GV4-Q4-Ber" userLabel="TextContainer">
+                                <rect key="frame" x="0.0" y="237" width="600" height="363"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Toronto" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="ovF-gc-rzz">
+                                        <rect key="frame" x="70" y="10" width="460" height="177"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="150"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="widthClass=compact">
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="90"/>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="-2C" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="kDi-Ww-ypH">
+                                        <rect key="frame" x="99" y="58" width="403" height="295"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="250"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="widthClass=compact">
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="150"/>
+                                        </variation>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.27893903778918056" green="0.41745369912753166" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="kDi-Ww-ypH" firstAttribute="centerX" secondItem="GV4-Q4-Ber" secondAttribute="centerX" id="4Sv-Eb-tsO"/>
+                                    <constraint firstItem="ovF-gc-rzz" firstAttribute="top" secondItem="GV4-Q4-Ber" secondAttribute="top" constant="10" id="DGO-jq-IwZ"/>
+                                    <constraint firstItem="kDi-Ww-ypH" firstAttribute="width" secondItem="GV4-Q4-Ber" secondAttribute="width" id="HnD-6c-2aK"/>
+                                    <constraint firstItem="ovF-gc-rzz" firstAttribute="width" secondItem="GV4-Q4-Ber" secondAttribute="width" id="ZZW-g3-GYM"/>
+                                    <constraint firstItem="ovF-gc-rzz" firstAttribute="centerX" secondItem="GV4-Q4-Ber" secondAttribute="centerX" id="Zhz-8V-bDJ"/>
+                                    <constraint firstAttribute="bottom" secondItem="kDi-Ww-ypH" secondAttribute="bottom" constant="10" id="lyu-RK-TGF"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.40392156862745099" green="0.62352941176470589" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="EXH-2Z-hYF" firstAttribute="height" relation="lessThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.4" id="7nq-16-K27"/>
+                            <constraint firstItem="EXH-2Z-hYF" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Hin-pw-FWR"/>
+                            <constraint firstItem="EXH-2Z-hYF" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.45" id="HpI-2T-gqN"/>
+                            <constraint firstItem="EXH-2Z-hYF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="Jvc-Ij-fd8"/>
+                            <constraint firstAttribute="width" secondItem="GV4-Q4-Ber" secondAttribute="width" multiplier="2" id="R9o-fZ-PM8"/>
+                            <constraint firstAttribute="trailing" secondItem="GV4-Q4-Ber" secondAttribute="trailing" id="SFF-r2-pBU"/>
+                            <constraint firstItem="EXH-2Z-hYF" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="VXK-8h-AZi"/>
+                            <constraint firstItem="GV4-Q4-Ber" firstAttribute="top" secondItem="EXH-2Z-hYF" secondAttribute="bottom" constant="20" id="ijU-fy-tOl"/>
+                            <constraint firstItem="GV4-Q4-Ber" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="180" id="kKb-Jh-o51">
+                                <variation key="heightClass=compact" constant="0.0"/>
+                            </constraint>
+                            <constraint firstItem="EXH-2Z-hYF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mZC-tY-d1k"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="GV4-Q4-Ber" secondAttribute="bottom" id="qBM-up-8Uu"/>
+                            <constraint firstItem="GV4-Q4-Ber" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="vBH-35-s1n"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="HpI-2T-gqN"/>
+                                <exclude reference="Jvc-Ij-fd8"/>
+                                <exclude reference="VXK-8h-AZi"/>
+                                <exclude reference="R9o-fZ-PM8"/>
+                                <exclude reference="kKb-Jh-o51"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="constraints">
+                                <exclude reference="7nq-16-K27"/>
+                                <exclude reference="Hin-pw-FWR"/>
+                                <include reference="HpI-2T-gqN"/>
+                                <include reference="Jvc-Ij-fd8"/>
+                                <include reference="VXK-8h-AZi"/>
+                                <exclude reference="mZC-tY-d1k"/>
+                                <include reference="R9o-fZ-PM8"/>
+                                <include reference="SFF-r2-pBU"/>
+                                <exclude reference="ijU-fy-tOl"/>
+                                <include reference="kKb-Jh-o51"/>
+                                <exclude reference="vBH-35-s1n"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cloud_small" width="300" height="197"/>
+    </resources>
+</document>
