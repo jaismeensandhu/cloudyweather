@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E9038258E06DD041EEA13E5FD7243158E8F1C609",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "172491D77F14892D15D1C0437BC2A703C1871731" : 9223372036854775807,
+    "E9038258E06DD041EEA13E5FD7243158E8F1C609" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "493FA343-ACA2-45E1-B522-B24FEEF8B5F9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "172491D77F14892D15D1C0437BC2A703C1871731" : "",
+    "E9038258E06DD041EEA13E5FD7243158E8F1C609" : "Calcit\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Calcit",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Calcit.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jaismeensandhu\/cloudyweather.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "172491D77F14892D15D1C0437BC2A703C1871731"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jaismeensandhu\/calcit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E9038258E06DD041EEA13E5FD7243158E8F1C609"
+    }
+  ]
+}
